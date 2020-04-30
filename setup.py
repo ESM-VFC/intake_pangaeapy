@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="intake_pangaeapy",
-    version="0.1.0",
+    version="0.1.1",
     description="Intake driver for pangaeapy",
     url="https://github.com/esm-vfc/intake_pangaeapy",
     author="ESM-VFC developers",

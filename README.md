@@ -2,11 +2,13 @@
 
 [`pangaeapy`](https://github.com/pangaea-data-publisher/pangaeapy) driver for [Intake](https://intake.readthedocs.io/).
 
+
 ## Installation
 
 ```shell
-python -m pip git+http://github.com/esm-vfc/intake_pangaeapy.git@v0.1.0
+python -m pip git+http://github.com/esm-vfc/intake_pangaeapy.git@v0.1.1
 ```
+
 
 ## Example Usage
 
@@ -65,3 +67,12 @@ Out[4]:
 [2527 rows x 17 columns]
 
 ```
+
+
+## Creating releases
+
+Make sure to bump verion number
+- [ ] in the [installation notes](#installation),
+- [ ] in the [setup.py](setup.py)
+
+Then, push to `master` and tag a realease on Github.
