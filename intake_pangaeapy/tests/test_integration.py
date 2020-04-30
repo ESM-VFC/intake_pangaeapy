@@ -44,4 +44,4 @@ def test_full_load(catalog_file):
 
     # read dataframe and check that there's real data
     df = catalog["M85_1_bottles"].read()
-    assert "M85/1_693" in df["Event"]
+    assert any(df["Event"].str.contains("M85/1_693"))
