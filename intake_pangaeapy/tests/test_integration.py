@@ -40,9 +40,8 @@ def catalog_file(tmpdir_factory):
 def test_full_load(catalog_file):
     # open catalog and ensure entry is present
     catalog = intake.open_catalog(str(catalog_file))
-
-    # check that the desired entry is actually present
     assert "M85_1_bottles" in catalog
 
-    # read dataframe
+    # read dataframe and check that there's real data
     df = catalog["M85_1_bottles"].read()
+    assert "M85/1_693" in df["Event"]
