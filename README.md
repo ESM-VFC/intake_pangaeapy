@@ -1,5 +1,7 @@
 # intake_pangaeapy
 
+![test](https://github.com/ESM-VFC/intake_pangaeapy/workflows/test/badge.svg)
+
 [`pangaeapy`](https://github.com/pangaea-data-publisher/pangaeapy) driver for [Intake](https://intake.readthedocs.io/).
 
 
