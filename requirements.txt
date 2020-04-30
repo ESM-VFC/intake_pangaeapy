@@ -1,0 +1,3 @@
+intake
+pandas
+pangaeapy=0.0.4
