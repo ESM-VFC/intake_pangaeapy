@@ -6,7 +6,7 @@
 ## Installation
 
 ```shell
-python -m pip git+http://github.com/esm-vfc/intake_pangaeapy.git@v0.1.1
+python -m pip install git+http://github.com/esm-vfc/intake_pangaeapy.git@v0.1.1
 ```
 
 
