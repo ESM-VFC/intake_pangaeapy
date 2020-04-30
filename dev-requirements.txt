@@ -1,0 +1,7 @@
+black
+flake8
+intake
+pandas
+pangaeapy==0.0.4
+pytest
+pytest-cov
