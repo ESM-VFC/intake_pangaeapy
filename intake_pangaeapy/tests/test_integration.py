@@ -6,9 +6,7 @@ import textwrap
 
 @pytest.fixture(scope="session")
 def catalog_file(tmpdir_factory):
-    """Prepare a single-entry catalog that points to actual data on pangaea.de.
-
-    """
+    """Prepare a single-entry catalog that points to actual data on pangaea.de."""
     catalog_str = textwrap.dedent(
         """
         metadata:

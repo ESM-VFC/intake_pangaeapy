@@ -8,6 +8,10 @@ setup(
     author="ESM-VFC developers",
     license="MIT",
     packages=["intake_pangaeapy"],
-    entry_points={"intake.drivers": ["pangaeapy = intake_pangaeapy:PangaeapySource",]},
+    entry_points={
+        "intake.drivers": [
+            "pangaeapy = intake_pangaeapy:PangaeapySource",
+        ]
+    },
     zip_safe=False,
 )
